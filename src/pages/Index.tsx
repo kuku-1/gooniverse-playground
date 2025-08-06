@@ -1,12 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from "react";
+import Navigation from "@/components/Navigation";
+import HomePage from "@/components/HomePage";
+import GoonifyPage from "@/components/GoonifyPage";
+import GamesPage from "@/components/GamesPage";
+import CalculatorPage from "@/components/CalculatorPage";
+import ChartPage from "@/components/ChartPage";
 
 const Index = () => {
+  const [currentPage, setCurrentPage] = useState("home");
+
+  const renderPage = () => {
+    switch (currentPage) {
+      case "home":
+        return <HomePage onNavigate={setCurrentPage} />;
+      case "goonify":
+        return <GoonifyPage />;
+      case "games":
+        return <GamesPage />;
+      case "calculator":
+        return <CalculatorPage />;
+      case "chart":
+        return <ChartPage />;
+      default:
+        return <HomePage onNavigate={setCurrentPage} />;
+    }
+  };
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Navigation currentPage={currentPage} onNavigate={setCurrentPage} />
+      {renderPage()}
     </div>
   );
 };
