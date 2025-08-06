@@ -30,7 +30,7 @@ const Navigation = ({ currentPage, onNavigate }: NavigationProps) => {
             <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
               <Gamepad2 className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="font-orbitron font-bold text-xl text-primary text-neon">
+            <span className="font-orbitron font-bold text-xl text-primary">
               GOONING
             </span>
           </div>

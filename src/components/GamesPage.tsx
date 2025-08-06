@@ -76,7 +76,7 @@ const GamesPage = () => {
             <Trophy className="w-4 h-4 mr-2" />
             GOON DASH ARENA
           </Badge>
-          <h1 className="text-5xl md:text-6xl font-orbitron font-black mb-6 text-neon">
+          <h1 className="text-5xl md:text-6xl font-orbitron font-black mb-6">
             GAME ARENA
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -133,7 +133,7 @@ const GamesPage = () => {
                         <>
                           <div className="text-6xl animate-pulse">💎</div>
                           <h3 className="text-2xl font-orbitron font-bold text-primary">CLICK TO COLLECT!</h3>
-                          <div className="text-4xl font-orbitron font-black text-accent text-neon">
+                          <div className="text-4xl font-orbitron font-black text-accent">
                             {score}
                           </div>
                         </>

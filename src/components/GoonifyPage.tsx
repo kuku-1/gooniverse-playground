@@ -84,7 +84,7 @@ const GoonifyPage = () => {
             <Sparkles className="w-4 h-4 mr-2" />
             AI GOONIFICATION CHAMBER
           </Badge>
-          <h1 className="text-5xl md:text-6xl font-orbitron font-black mb-6 text-neon">
+          <h1 className="text-5xl md:text-6xl font-orbitron font-black mb-6">
             GOONIFY ME
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

@@ -17,10 +17,10 @@ const buttonVariants = cva(
         secondary:
           "bg-secondary text-secondary-foreground hover:bg-secondary/80 glow-hover",
         ghost: "text-foreground hover:bg-primary/10 hover:text-primary",
-        link: "text-primary underline-offset-4 hover:underline text-glow",
-        neon: "bg-gradient-primary text-primary-foreground font-orbitron font-bold text-neon shadow-neon hover:shadow-epic transform hover:scale-105 transition-all duration-300",
-        goon: "bg-gradient-secondary text-secondary-foreground font-orbitron font-bold text-neon shadow-glow hover:shadow-epic transform hover:scale-105 transition-all duration-300",
-        epic: "bg-gradient-accent text-accent-foreground font-orbitron font-bold text-neon shadow-epic hover:shadow-epic transform hover:scale-110 transition-all duration-500 animate-pulse",
+        link: "text-primary underline-offset-4 hover:underline",
+        neon: "bg-gradient-primary text-primary-foreground font-orbitron font-bold shadow-neon hover:shadow-epic transform hover:scale-105 transition-all duration-300",
+        goon: "bg-gradient-secondary text-secondary-foreground font-orbitron font-bold shadow-glow hover:shadow-epic transform hover:scale-105 transition-all duration-300",
+        epic: "bg-gradient-accent text-accent-foreground font-orbitron font-bold shadow-epic hover:shadow-epic transform hover:scale-110 transition-all duration-500 animate-pulse",
       },
       size: {
         default: "h-10 px-4 py-2",

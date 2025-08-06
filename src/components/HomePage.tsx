@@ -26,10 +26,10 @@ const HomePage = ({ onNavigate }: HomePageProps) => {
             THE FUTURE OF MEME GAMING
           </Badge>
           
-          <h1 className="text-6xl md:text-8xl font-orbitron font-black mb-6 text-neon bg-gradient-primary bg-clip-text text-transparent">
+          <h1 className="text-6xl md:text-8xl font-orbitron font-black mb-6 bg-gradient-primary bg-clip-text text-transparent">
             GOON HARD.
           </h1>
-          <h2 className="text-4xl md:text-6xl font-orbitron font-black mb-8 text-neon bg-gradient-secondary bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-6xl font-orbitron font-black mb-8 bg-gradient-secondary bg-clip-text text-transparent">
             MEME HARDER.
           </h2>
           
@@ -86,7 +86,7 @@ const HomePage = ({ onNavigate }: HomePageProps) => {
       {/* Features Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
-          <h2 className="text-4xl md:text-5xl font-orbitron font-bold text-center mb-4 text-neon">
+          <h2 className="text-4xl md:text-5xl font-orbitron font-bold text-center mb-4">
             THE GOON EXPERIENCE
           </h2>
           <p className="text-xl text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
@@ -130,7 +130,7 @@ const HomePage = ({ onNavigate }: HomePageProps) => {
       {/* Stats Section */}
       <section className="py-20 bg-card/50 backdrop-blur-sm">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-orbitron font-bold mb-12 text-neon">GOON NETWORK STATS</h2>
+          <h2 className="text-3xl font-orbitron font-bold mb-12">GOON NETWORK STATS</h2>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
@@ -167,7 +167,7 @@ const HomePage = ({ onNavigate }: HomePageProps) => {
       {/* CTA Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-6 text-neon">
+          <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-6">
             READY TO JOIN THE GOON ARMY?
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">

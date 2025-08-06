@@ -41,7 +41,7 @@ const ChartPage = () => {
             <BarChart3 className="w-4 h-4 mr-2" />
             LIVE GOON CHART
           </Badge>
-          <h1 className="text-5xl md:text-6xl font-orbitron font-black mb-6 text-neon">
+          <h1 className="text-5xl md:text-6xl font-orbitron font-black mb-6">
             $GOON CHART
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -54,7 +54,7 @@ const ChartPage = () => {
           {quickStats.map((stat, index) => (
             <Card key={index} className="border-primary/20 bg-card/50 backdrop-blur-sm">
               <CardContent className="pt-4 pb-4 text-center">
-                <div className={`text-2xl font-orbitron font-bold ${stat.color} text-neon`}>
+                <div className={`text-2xl font-orbitron font-bold ${stat.color}`}>
                   {stat.value}
                 </div>
                 <div className="text-sm text-muted-foreground">{stat.label}</div>

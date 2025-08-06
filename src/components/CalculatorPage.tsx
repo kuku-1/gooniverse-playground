@@ -119,7 +119,7 @@ const CalculatorPage = () => {
             <Calculator className="w-4 h-4 mr-2" />
             GOON SCORE CALCULATOR
           </Badge>
-          <h1 className="text-5xl md:text-6xl font-orbitron font-black mb-6 text-neon">
+          <h1 className="text-5xl md:text-6xl font-orbitron font-black mb-6">
             CALCULATE YOUR GOON POWER
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -254,7 +254,7 @@ const CalculatorPage = () => {
                 {goonScore !== null ? (
                   <>
                     <div className="space-y-4">
-                      <div className="text-6xl font-orbitron font-black text-neon bg-gradient-primary bg-clip-text text-transparent">
+                      <div className="text-6xl font-orbitron font-black bg-gradient-primary bg-clip-text text-transparent">
                         {goonScore.toLocaleString()}
                       </div>
                       <div className="space-y-2">
